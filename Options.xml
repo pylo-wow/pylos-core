@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Custom options row (Options.lua, AddRow), shared by all family addons -->
+    <Frame name="PylosCoreOptionsRowTemplate" virtual="true">
+        <Size x="560" y="40"/>
+        <Scripts>
+            <OnLoad>
+                self.Init = function(frame, initializer)
+                    initializer:GetData().init(frame)
+                end
+            </OnLoad>
+        </Scripts>
+    </Frame>
+</Ui>

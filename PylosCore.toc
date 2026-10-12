@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: Pylos Core
+## Category: Pylos
+## Notes: The base of Pylos addons: their settings and saved data. Does nothing on its own.
+## Author: Pylo
+## Version: 1.0.0
+## X-License: GPL-3.0-or-later
+## IconTexture: Interface\AddOns\PylosCore\Icon.tga
+
+Core.lua
+Locale.lua
+Saved.lua
+Options.xml
+Options.lua
+Settings.lua
